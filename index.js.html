@@ -1,0 +1,125 @@
+<head>
+
+	<link type="text/css" rel="stylesheet" href="css/csshue.min.css">
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.csshue.min.js"></script>
+	<style type="text/css">
+		body {
+			margin:0px;
+			overflow:hidden;
+		}
+	  	div {
+	  		width:33.33%;
+	  		height:25%;
+	  		float:left;
+	  		text-align: center;
+	  	}
+	  	span {
+	  		margin:auto;
+	  		font-size:40px;
+	  	}
+	</style>
+</head>
+<body>
+	<div class="bg-wood"></div>
+	<div class="bg-flame"></div>
+	<div class="bg-rose"></div>
+	<div class="bg-violet"></div>
+	<div class="bg-grape"></div>
+	<div class="bg-ocean"></div>
+	<div class="bg-turquoise"></div>
+	<div class="bg-emerald"></div>
+	<div class="bg-weed"></div>
+	<div class="bg-sun"></div>
+	<div class="bg-pumpkin"></div>
+	<div class="bg-stone"></div>
+	<script>
+		$( document ).ready(function() {
+			$(".bg-wood").hover(
+				function() {
+		    		$( this ).css("background-color", $.hue.wood4);
+		 		}, function() {
+		    		$( this ).css("background-color", $.hue.wood);
+		  		}
+			);
+			$(".bg-flame").hover(
+				function() {
+		    		$( this ).css("background-color", $.hue.vib.flame);
+		 		}, function() {
+		    		$( this ).css("background-color", $.hue.flame);
+		  		}
+			);
+			$(".bg-rose").hover(
+				function() {
+		    		$( this ).css("background-color", $.hue.vib.rose);
+		 		}, function() {
+		    		$( this ).css("background-color", $.hue.rose);
+		  		}
+			);
+			$(".bg-violet").hover(
+				function() {
+		    		$( this ).css("background-color", $.hue.vib.violet);
+		 		}, function() {
+		    		$( this ).css("background-color", $.hue.violet);
+		  		}
+			);
+			$(".bg-grape").hover(
+				function() {
+		    		$( this ).css("background-color", $.hue.grape4);
+		 		}, function() {
+		    		$( this ).css("background-color", $.hue.grape);
+		  		}
+			);
+			$(".bg-ocean").hover(
+				function() {
+		    		$( this ).css("background-color", $.hue.vib.ocean);
+		 		}, function() {
+		    		$( this ).css("background-color", $.hue.ocean);
+		  		}
+			);
+			$(".bg-turquoise").hover(
+				function() {
+		    		$( this ).css("background-color", $.hue.vib.turquoise);
+		 		}, function() {
+		    		$( this ).css("background-color", $.hue.turquoise);
+		  		}
+			);
+			$(".bg-emerald").hover(
+				function() {
+		    		$( this ).css("background-color", $.hue.vib.emerald);
+		 		}, function() {
+		    		$( this ).css("background-color", $.hue.emerald);
+		  		}
+			);
+			$(".bg-weed").hover(
+				function() {
+		    		$( this ).css("background-color", $.hue.vib.weed);
+		 		}, function() {
+		    		$( this ).css("background-color", $.hue.weed);
+		  		}
+			);
+			$(".bg-sun").hover(
+				function() {
+		    		$( this ).css("background-color", $.hue.vib.sun);
+		 		}, function() {
+		    		$( this ).css("background-color", $.hue.sun);
+		  		}
+			);
+			$(".bg-pumpkin").hover(
+				function() {
+		    		$( this ).css("background-color", $.hue.vib.pumpkin);
+		 		}, function() {
+		    		$( this ).css("background-color", $.hue.pumpkin);
+		  		}
+			);
+			$(".bg-stone").hover(
+				function() {
+		    		$( this ).css("background-color", $.hue.stone2);
+		 		}, function() {
+		    		$( this ).css("background-color", $.hue.stone);
+		  		}
+			);
+		});
+	</script>
+
+</body>
