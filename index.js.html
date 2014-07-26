@@ -6,11 +6,13 @@
 
 </head>
 <body>
-
 	<script>
 		$( document ).ready(function() {
-			$("body").css("color",$.hue.flame5);
-			$("body").css("background-color",$.hue.vib.emerald);
+			$("body").addClass("fc-vib-turquoise");
+			$("body").addClass("bg-emerald");
+			/* and you can get colors code using $.hue object*/
+			$("body").append("<div>Font Color: " + $.hue.vib.turquoise + "</div>");
+			$("body").append("<div>Background Color: " + $.hue.emerald + "</div>");
 		});
 	</script>
 

@@ -174,3 +174,26 @@ $.hue.vib.pumpkin3 = "#c97000";
 $.hue.vib.pumpkin4 = "#ff8e00";
 $.hue.vib.pumpkin5 = "#ffc990";
 $.hue.vib.pumpkin6 = "#ffe4c9";
+
+$.hue.flat = {};
+
+$.hue.flat.turquoise = "#1abc9c";
+$.hue.flat.emerald = "#2ecc71";
+$.hue.flat.peterriver = "#3498db";
+$.hue.flat.amethyst = "#9b59b6";
+$.hue.flat.wetasphalt = "#34495e";
+$.hue.flat.greensea = "#16a085";
+$.hue.flat.nephritis = "#27ae60";
+$.hue.flat.belizehole = "#2980b9";
+$.hue.flat.wisteria = "#8e44ad";
+$.hue.flat.midnightblue = "#2c3e50";
+$.hue.flat.sunflower = "#f1c40f";
+$.hue.flat.carrot = "#e67e22";
+$.hue.flat.alizarin = "#e74c3c";
+$.hue.flat.clouds = "#ecf0f1";
+$.hue.flat.concrete = "#95a5a6";
+$.hue.flat.orange = "#f39c12";
+$.hue.flat.pumpkin = "#d35400";
+$.hue.flat.pomegranate = "#c0392b";
+$.hue.flat.silver = "#bdc3c7";
+$.hue.flat.asbestos = "#7f8c8d";
