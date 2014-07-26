@@ -1,3 +1,9 @@
+/*
+CSSHue - open source CSS color pallet
+developed by: Felipe Barelli & Vinicius D'Ávila
+https://github.com/csshue
+*/
+
 $.hue = { };
 $.hue.wood = "#866327";
 $.hue.wood1 = "#493410";
