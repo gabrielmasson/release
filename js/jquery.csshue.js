@@ -5,6 +5,10 @@ https://github.com/csshue
 */
 
 $.hue = { };
+
+$.hue.white = "#FFFFFF";
+$.hue.black = "#000000";
+
 $.hue.wood = "#866327";
 $.hue.wood1 = "#493410";
 $.hue.wood2 = "#69512b";

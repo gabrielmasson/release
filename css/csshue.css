@@ -3,6 +3,8 @@ CSSHue - open source CSS color pallet
 developed by: Felipe Barelli & Vinicius D'Ávila
 https://github.com/csshue
 */
+.fc-white{color:#FFFFFF;}
+.fc-black{color:#000000;}
 
 .fc-wood{color:#866327;}
 .fc-wood-1{color:#493410;}
@@ -99,6 +101,9 @@ https://github.com/csshue
 .fc-stone-4{color:#c4c7c1;}
 .fc-stone-5{color:#daddd7;}
 .fc-stone-6{color:#f1f1ef;}
+
+.bg-white{background-color:#FFFFFF;}
+.bg-black{background-color:#000000;}
 
 .bg-wood{background-color:#866327;}
 .bg-wood-1{background-color:#493410;}
